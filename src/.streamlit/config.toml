@@ -7,4 +7,4 @@ textColor = "#000000"
 font = "sans serif"
 
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
