@@ -16,3 +16,6 @@
 - python qa.py "what is the feature report?"
 ### Start stremlit UI
 - python -m streamlit run Home.py (Can't work with proxy, need to access the internet)
+
+### Test app host on VM
+http://dev0028317.esri.com:8501
