@@ -8,7 +8,7 @@
 - Install python3：`conda install python=3`
 - Install streamlit: `pip install streamlit`
 - Install requirements：`pip install -r requirements.txt`
-- `set OPENAI_API_KEY=<>`
+- Add OpenAI API key to `\.streamlit\secret.toml` or  `set OPENAI_API_KEY=<>`
 - Install missing libs: `pip install unstructured`
 ### Ingest docs
 - `cd QA_db`
