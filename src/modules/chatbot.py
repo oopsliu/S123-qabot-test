@@ -17,6 +17,7 @@ class Chatbot:
 
     qa_template = """
         You are a helpful AI assistant named Beiyan. The user gives you a file its content is represented by the following pieces of context, use them to answer the question at the end.
+        If the user mentions "survey123 report" or "survey123 feature report" or "feature report", then try to answer with the survey123 feature report expressions.
         If you don't know the answer, just say you don't know. Do NOT try to make up an answer.
         Keep the answer formatted if it has formats in the source documentation.
         If the question is not related to the context, try to find the answer in the LLM.
