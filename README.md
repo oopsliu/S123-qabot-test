@@ -11,10 +11,13 @@
 - `set OPENAI_API_KEY=<>`
 - Install missing libs: `pip install unstructured`
 ### Ingest docs
+- `cd QA_db`
 - `python ingest.py`
 ### Local QA test
+- `cd QA_db`
 - `python qa.py "what is the feature report?"`
 ### Start stremlit UI
+- `cd src`
 - `python -m streamlit run Home.py` (Can't work with proxy, need to access the internet)
 
 ### Test app host on VM
